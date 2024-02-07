@@ -20,6 +20,7 @@ const Topbar = () => {
                             <div className={`${classes.logo} logo`} style={{ display: "flex", alignItems: "center" }}>
                             
                                 <div><img className={`${classes.nssLogo} nssLogo`} src="/assets/nss_84.png" /></div>
+
                                 <div style={{ display: "flex", alignItems: "center"}}>
                                     <div className={`${classes.nss} nss`}>
                                         NSS
@@ -32,7 +33,10 @@ const Topbar = () => {
                                             PILANI
                                         </div>
                                     </div>
-                                </div>                
+                                </div>  
+                                <div style={{fontSize:"15px"}}> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; in partnership with&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div><img className={`${classes.nsssLogo} nsssLogo`} src="/assets/FORTIS.png" /></div>
+              
                             </div>
                         </NavLink>
                     </Navbar.Brand>
